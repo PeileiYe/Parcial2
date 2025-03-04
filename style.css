@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "street";
+    src: url(Font/street.otf);
+}
+
+:root {
+    --fuente-principal: "street";
+}
+
+body{
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    font-family:  var(--fuente-principal);
+    background-repeat: no repeat;
+    text-align: center;
+}
+
+h1{
+    color:crimson;
+    size:46px;
+    text-align: center;
+}
+
+h2{
+    color:crimson;
+    size:28px;  
+    text-align: center;
+}
+
+figcaption{
+    color: darkorange;
+    size:18px;
+    margin-bottom: 0px;
+}
+img{
+    margin-bottom:0px;
+}
+
+table{
+    margin:0 auto;
+    width:600px;
+    height:800px;
+    border:10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+}
+
+tr,td{
+    width:40px;
+    height:45px;
+    border:2px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#cabecera{
+    color:whitesmoke;
+    font-size:40px;
+    text-align: center;
+    opacity: 0.5;
+    background-image: url(img/fondocabecera.jpg);
+    background-size: 100%;
+    margin: 0px;
+}
+
+form{
+    margin: 0 auto;
+    height:1100px;
+    width: 600px;
+    border:10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    color:white;
+    background: black;
+    text-align: left;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+legend{
+    font-family:  var(--fuente-principal);
+    size:14px;
+    color:rgb(237, 175, 5);
+}
+
+#text{
+    width: 560px;
+    height:100px;
+
+}
+
+.boton{
+    Border: 1px solid crimson;
+    border-radius: 5px;
+    background-color: crimson;
+    width:200px;
+    height:50px;
+    font-family:  var(--fuente-principal);
+    font-size: 18px;
+    color:white;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
