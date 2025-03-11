@@ -41,7 +41,7 @@ img{
 }
 
 table{
-    margin:0 auto;
+    margin: 0 auto;
     width:600px;
     height:800px;
     border:10px outset rgb(237, 175, 5);
@@ -57,9 +57,12 @@ tr,td{
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+    padding: 0rem;
 }
 
-
+td img {
+    width:70%;
+}
 #cabecera{
     color:whitesmoke;
     font-size:40px;
@@ -70,9 +73,14 @@ tr,td{
     margin: 0px;
 }
 
+.nombre{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 form{
     margin: 0 auto;
-    height:1100px;
+    height: 1100px;
     width: 600px;
     border:10px outset rgb(237, 175, 5);
     border-radius: 10px;
@@ -82,16 +90,24 @@ form{
     font-size: 16px;
     font-family: Verdana;
 }
-
+fieldset{
+    margin-bottom: 1rem;
+}
 legend{
     font-family:  var(--fuente-principal);
     size:14px;
     color:rgb(237, 175, 5);
 }
-
+.elemento{
+    display: block;
+    margin-top: 1rem;
+}
+.elemento label {
+    width: 10rem;
+}
 #text{
     width: 560px;
-    height:100px;
+    height:150px;
 
 }
 
